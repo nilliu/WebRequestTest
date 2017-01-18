@@ -1,0 +1,6 @@
+framework module Pods_WebRequestTest {
+  umbrella header "Pods-WebRequestTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
