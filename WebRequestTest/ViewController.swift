@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let urlString = "https://swapi.co/api/people/163/?format=json"
+        let urlString = "https://swapi.co/api/people/1/?format=json"
         
         Alamofire.request(urlString).responseJSON { response in
             let json = JSON(data: response.data!)
